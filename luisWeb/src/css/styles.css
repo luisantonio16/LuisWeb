@@ -90,9 +90,6 @@ h1,h2,h3,h4,h5,h6{
     font-size: 3rem;
     letter-spacing: 1;
     margin-top: 1rem;
-    
-
-
 }
 .user-info__trabajo{
     color: var(--white);
@@ -148,8 +145,8 @@ h1,h2,h3,h4,h5,h6{
     right: -125px;
     min-width: 11rem;
     background-color: var(--transparent);
-   
 }
+
 .menu__list{
     position: relative;
     display: flex;
@@ -183,7 +180,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .menu__title{
     position: absolute;
-    right: 0;
+    right: 10px;
     margin-top: -3.5rem;
     padding: 1rem ;
     display: block;
@@ -229,6 +226,7 @@ h1,h2,h3,h4,h5,h6{
 .container-page p {
     font-size: 2rem;
 }
+
 /*Para el contenedor general de todas las rutas*/
 .sections{
     width: 100%;
@@ -244,7 +242,7 @@ h1,h2,h3,h4,h5,h6{
 
 .container__menu-icon{
     position: absolute;
-    top:3%;
+    top:7%;
     right: 3%;
     background-color: var(--primary-color);
     cursor: pointer;

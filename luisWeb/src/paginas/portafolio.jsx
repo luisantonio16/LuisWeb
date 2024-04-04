@@ -15,12 +15,7 @@ function portafolio() {
             <section className='portafolio'>
                 <header className="portafolio-header">
                     <h3 className="header-title">Proyectos</h3>
-                    <div className="container__menu-icon">
-                        <article className="menu-icon">
-                            <i className='bx bx-menu-alt-right icon-menu' ></i>
-
-                        </article>
-                    </div>
+                   
                 </header>
 
                 <div className='portafolio-container'>

@@ -9,13 +9,6 @@ function About() {
                         <h2 className="about-text-title">Sobre <span className="header-subtitle">Mi</span></h2>
 
                     </div>
-
-                    <div className="container__menu-icon">
-                        <article className="menu-icon">
-                            <i className='bx bx-menu-alt-right icon-menu' ></i>
-
-                        </article>
-                    </div>
                 </header>
 
                 <div className="about__container-informacion">

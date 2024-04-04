@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from 'react'
 import { Routes, BrowserRouter, Route, Link, NavLink } from "react-router-dom"
 import Home from "../paginas/home.jsx"
 import About from "../paginas/about.jsx"
@@ -11,18 +11,28 @@ import Contacto from "../paginas/contacto.jsx";
 
 
 function RutaPrincipal() {
+    const [show, setShow] = useState(false);
+    let isShow = false;
+
+
     return (
         <>
             <BrowserRouter>
                 <div className="layout">
                     {/* <!-- barra lateral de informancion de usuario --> */}
-                    <aside className="layout__aside">
-                        
+
+                    <div className="container__menu-icon">
+                        <article className="menu-icon" onClick={()=> setShow((isShow) => !isShow)}>
+                            <i className='bx bx-menu-alt-right icon-menu' ></i>
+                        </article>
+                    </div>
+
+                    <aside className= {`layout__aside ${show ? "active" : ""}`}> 
                         <section className="aside__user-info">
                             {/* <!-- informancion general del usuario --> */}
                             <div className="user-info__general">
                                 <div className="user-info__imagen">
-                                    <img src={luis} alt="" />
+                                    <img src={luis} />
 
                                 </div>
 

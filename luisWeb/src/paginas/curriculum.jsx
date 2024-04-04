@@ -6,12 +6,7 @@ function Estudio() {
             <div className="curriculum">
                 <header className="curriculum-header">
                     <h3 className="header-title">Curriculum</h3>
-                    <div className="container__menu-icon">
-                        <article className="menu-icon">
-                            <i className='bx bx-menu-alt-right icon-menu' ></i>
-
-                        </article>
-                    </div>
+                  
                 </header>
 
                 <div className="curriculum-container">

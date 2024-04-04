@@ -11,12 +11,7 @@ function contacto() {
 
                 <header className="curriculum-header">
                     <h3 className="header-title">Contacto</h3>
-                    <div className="container__menu-icon">
-                        <article className="menu-icon">
-                            <i className='bx bx-menu-alt-right icon-menu' ></i>
-
-                        </article>
-                    </div>
+                  
                 </header>
 
 
