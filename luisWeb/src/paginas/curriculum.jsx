@@ -59,15 +59,15 @@ function Estudio() {
                                 <div className="timeline-items">
 
                                     <div className="timeline-header">
-                                        <h3 className="timeline-years">2022</h3>
-                                        <span className="timeline-company">Archangeli Corporation</span>
+                                        <h3 className="timeline-years">2023</h3>
+                                        <span className="timeline-company">TECKLAS</span>
                                     </div>
 
                                     <div className="timeline-divisor"></div>
 
                                     <div className="timeline-description">
-                                        <h3 className="timeline-title">Desarrollador Web</h3>
-                                        <p className="timeline-info">Encargado de desarrollar y diseñar la web de la empresa.</p>
+                                        <h3 className="timeline-title">Desarrollador Full Stack</h3>
+                                        <p className="timeline-info">Desarrollador de sistemas Web</p>
                                     </div>
                                 </div>
                             </article>
