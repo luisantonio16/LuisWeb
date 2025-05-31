@@ -106,7 +106,7 @@ function Estudio() {
 
                                 <article className="skills-titles">
                                     <h4 className="skill-text">React.js</h4>
-                                    <span className=" skill-number">65%</span>
+                                    <span className=" skill-number">70%</span>
                                 </article>
 
                                 <div className="skills-progresbar">
