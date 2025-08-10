@@ -67,7 +67,7 @@ function Estudio() {
 
                                     <div className="timeline-description">
                                         <h3 className="timeline-title">Desarrollador Full Stack</h3>
-                                        <p className="timeline-info">Desarrollador de sistemas Web</p>
+                                        <p className="timeline-info">Desarrollador de sistemas Web Academicos.</p>
                                     </div>
                                 </div>
                             </article>
