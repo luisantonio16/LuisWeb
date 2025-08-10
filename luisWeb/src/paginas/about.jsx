@@ -21,7 +21,7 @@ function About() {
                         <ul className="about-info-list">
                             <li className="info-list">
                                 <span className="info-list-title">Edad</span>
-                                <span className="info-list-value">22</span>
+                                <span className="info-list-value">24</span>
 
                             </li>
                             <li className="info-list">
